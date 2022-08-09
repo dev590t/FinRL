@@ -416,11 +416,18 @@ dependencies = [
 name = "gym"
 version = "0.21.0"
 requires_python = ">=3.6"
-summary = "Gym: A universal API for reinforcement learning environments."
+summary = "Gym: A universal API for reinforcement learning environments"
 dependencies = [
     "cloudpickle>=1.2.0",
+    "gym-notices>=0.0.4",
+    "importlib-metadata>=4.8.0; python_version < \"3.10\"",
     "numpy>=1.18.0",
 ]
+
+[[package]]
+name = "gym-notices"
+version = "0.0.7"
+summary = "Notices for gym"
 
 [[package]]
 name = "identify"
@@ -661,7 +668,6 @@ dependencies = [
     "numpy>=1.17.3; python_version >= \"3.8\"",
     "numpy>=1.19.3; python_version >= \"3.6\" and platform_system == \"Linux\" and platform_machine == \"aarch64\"",
     "numpy>=1.19.3; python_version >= \"3.9\"",
-    "numpy>=1.21.2; python_version >= \"3.10\"",
     "numpy>=1.21.2; python_version >= \"3.6\" and platform_system == \"Darwin\" and platform_machine == \"arm64\"",
 ]
 
@@ -683,7 +689,6 @@ dependencies = [
     "numpy>=1.18.5; platform_machine != \"aarch64\" and platform_machine != \"arm64\" and python_version < \"3.10\"",
     "numpy>=1.19.2; platform_machine == \"aarch64\" and python_version < \"3.10\"",
     "numpy>=1.20.0; platform_machine == \"arm64\" and python_version < \"3.10\"",
-    "numpy>=1.21.0; python_version >= \"3.10\"",
     "python-dateutil>=2.8.1",
     "pytz>=2020.1",
 ]
@@ -773,7 +778,7 @@ dependencies = [
 [[package]]
 name = "protobuf"
 version = "3.19.4"
-requires_python = ">=3.5"
+requires_python = ">=3.7"
 summary = "Protocol Buffers"
 
 [[package]]
@@ -1318,7 +1323,7 @@ summary = "Backport of pathlib-compatible object wrapper for zip files"
 
 [metadata]
 lock_version = "4.0"
-content_hash = "sha256:fa3335016fc59212e5ded79eb949ba63b3994e87653a638fab8bc0b35c9d93ce"
+content_hash = "sha256:3d81ed137d4f05683891d322c87f6d4a1566ceae96ef4b8df4ef54dc3a346e53"
 
 [metadata.files]
 "absl-py 1.2.0" = [
@@ -1828,6 +1833,10 @@ content_hash = "sha256:fa3335016fc59212e5ded79eb949ba63b3994e87653a638fab8bc0b35
 ]
 "gym 0.21.0" = [
     {url = "https://files.pythonhosted.org/packages/4b/48/920cea66177b865663fde5a9390a59de0ef3b642ad98106ac1d8717d7005/gym-0.21.0.tar.gz", hash = "sha256:0fd1ce165c754b4017e37a617b097c032b8c3feb8a0394ccc8777c7c50dddff3"},
+]
+"gym-notices 0.0.7" = [
+    {url = "https://files.pythonhosted.org/packages/81/7d/1facd00576b34597a8caa3ba59e3e576c34ba8210fe7c28ac0c270d19070/gym_notices-0.0.7-py3-none-any.whl", hash = "sha256:8da0c511d0b957405054cd1119c59e046013639c1bd55f67f410324f2570f7b3"},
+    {url = "https://files.pythonhosted.org/packages/aa/78/e8144afc14ec35839bc41974c4bbb7f8f7b3630e48e6ce3a39e482694f4a/gym-notices-0.0.7.tar.gz", hash = "sha256:254b667412dbe205135213595c963cd830668382ce57b68a0c282a238eeb35b9"},
 ]
 "identify 2.5.3" = [
     {url = "https://files.pythonhosted.org/packages/0c/ed/ee58d0ae16c7407762171c493db655b19b68c40d15b4294ef5d827ee33ea/identify-2.5.3-py2.py3-none-any.whl", hash = "sha256:25851c8c1370effb22aaa3c987b30449e9ff0cece408f810ae6ce408fdd20893"},

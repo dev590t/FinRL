@@ -1,48 +1,38 @@
-[project]
-name = ""
-version = ""
-description = ""
-authors = [
-    {name = "dev", email = "dev@gmail.com"},
-]
-dependencies = [
-    "alpaca_trade_api>=2.1.0",
-    "ccxt==1.66.32",
-    "elegantrl",
-    "exchange_calendars",
-    "gputil",
-    "gym>=0.17",
-    "jqdatasdk",
-    "lz4",
-    "matplotlib",
-    "numpy>=1.17.3",
-    "pandas>=1.1.5",
-    "pre-commit",
-    "pytest",
-    "ray[default]",
-    "ray[tune]",
-    "scikit-learn>=0.21.0",
-    "setuptools==59.5.0",
-    "stable-baselines3[extra]",
-    "stockstats>=0.4.0",
-    "tensorboardx",
-    "wheel>=0.33.6",
-    "wrds",
-    "yfinance",
-    "pyfolio @ git+https://github.com/quantopian/pyfolio.git#egg=pyfolio-0.9.2",                     
-    "elegantrl @ git+https://github.com/AI4Finance-Foundation/ElegantRL.git#egg=elegantrl"
-
-]
-requires-python = ">=3.9"
-license = {text = "MIT"}
-
 [tool]
 [tool.pdm]
-[[tool.pdm.source]]
-name = "pypi"
-url = "https://pypi.org/simple"
-verify_ssl = true
 
+
+[project]
+# PEP 621 project metadata
+# See https://www.python.org/dev/peps/pep-0621/
+dependencies = [
+    "numpy>=1.17.3",
+    "pandas>=1.1.5",
+    "stockstats>=0.4.0",
+    "yfinance",
+    #"elegantrl",
+    "matplotlib",
+    "scikit-learn>=0.21.0",
+    "gym>=0.17",
+    "stable-baselines3[extra]",
+    "ray[default]",
+    "ray[tune]",
+    "lz4",
+    "tensorboardX",
+    "gputil",
+    "exchange-calendars",
+    "alpaca-trade-api>=2.1.0",
+    "ccxt==1.66.32",
+    "jqdatasdk",
+    "wrds",
+    "pytest",
+    "setuptools==59.5.0",
+    "wheel>=0.33.6",
+    "pre-commit",
+    "pyfolio @ git+https://github.com/quantopian/pyfolio.git#egg=pyfolio-0.9.2",                     
+    "elegantrl @ git+https://github.com/AI4Finance-Foundation/ElegantRL.git#egg=elegantrl"
+]
+requires-python = "==3.9.9"
 [build-system]
-requires = ["pdm-pep517"]
+requires = ["pdm-pep517>=1.0.0"]
 build-backend = "pdm.pep517.api"
