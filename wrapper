@@ -1,0 +1,5 @@
+#!/run/current-system/profile/bin/bash
+CURRENT_PROFIL="$HOME/.guix-profile"
+export LD_LIBRARY_PATH="$CURRENT_PROFIL/lib"
+"$@"
+
