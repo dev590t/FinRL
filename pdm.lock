@@ -301,9 +301,9 @@ dependencies = [
 
 [[package]]
 name = "exchange-calendars"
-version = "4.1.1"
-requires_python = "~=3.8"
-summary = "Calendars for securities exchanges"
+version = "3.6.2"
+requires_python = ">=3.7"
+summary = "exchange_calendars is a Python library with securities exchange calendars"
 dependencies = [
     "korean-lunar-calendar",
     "numpy",
@@ -1323,7 +1323,7 @@ summary = "Backport of pathlib-compatible object wrapper for zip files"
 
 [metadata]
 lock_version = "4.0"
-content_hash = "sha256:3d81ed137d4f05683891d322c87f6d4a1566ceae96ef4b8df4ef54dc3a346e53"
+content_hash = "sha256:5f7c2998b4bc7c8fa448789df5e6194fbd2e4128a1009a84a1450689764e4095"
 
 [metadata.files]
 "absl-py 1.2.0" = [
@@ -1629,9 +1629,8 @@ content_hash = "sha256:3d81ed137d4f05683891d322c87f6d4a1566ceae96ef4b8df4ef54dc3
 "empyrical 0.5.5" = [
     {url = "https://files.pythonhosted.org/packages/74/43/1b997c21411c6ab7c96dc034e160198272c7a785aeea7654c9bcf98bec83/empyrical-0.5.5.tar.gz", hash = "sha256:84320f36931496774e948d7ca9f03494ae2dd94451b320eeda378639e5eba950"},
 ]
-"exchange-calendars 4.1.1" = [
-    {url = "https://files.pythonhosted.org/packages/12/6e/ba631b7dfd9bb971e448f8d05a38936c579861a500e376cb079f8be8199f/exchange_calendars-4.1.1-py3-none-any.whl", hash = "sha256:10c7ff07905db9f2344db404f132d662486c7c0cf0fdd5bfafcd924a86d3fe22"},
-    {url = "https://files.pythonhosted.org/packages/48/6d/baea19c0fe9d424f8b630a5cc091305423152a6323be115289878caeeced/exchange_calendars-4.1.1.tar.gz", hash = "sha256:182bc5e6b804d018c379bebe234ebc8d32b88e3aa7285a233f652ea8ba1b4c52"},
+"exchange-calendars 3.6.2" = [
+    {url = "https://files.pythonhosted.org/packages/3e/a5/c1504a4acc044c2f74a757207b16b3e7e9573462503d978872f696c0cace/exchange_calendars-3.6.2.tar.gz", hash = "sha256:796e016da741555e348fc62a5fa3bf9f7be9b4230dd56055998134d96b15a99a"},
 ]
 "executing 0.9.1" = [
     {url = "https://files.pythonhosted.org/packages/0f/7e/6d9cd1b1484a75f638c7ca1ef717af5650c83b4c0f1b723fce845e9cd023/executing-0.9.1.tar.gz", hash = "sha256:ea278e2cf90cbbacd24f1080dd1f0ac25b71b2e21f50ab439b7ba45dd3195587"},

@@ -19,7 +19,7 @@ tensorboardX
 gputil
 
 # market data & paper trading API
-exchange_calendars
+exchange_calendars==3.6.2 # solve 3ca55367-7acd-4611-894e-b9d2a982f54f
 alpaca_trade_api>=2.1.0
 ccxt==1.66.32  # make sure that >=1.66.32  
 jqdatasdk
