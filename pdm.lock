@@ -342,7 +342,8 @@ name = "elegantrl"
 version = "0.3.3"
 requires_python = ">=3.6"
 git = "https://github.com/AI4Finance-Foundation/ElegantRL.git"
-revision = "d6c918e56325ccda5b559301660685cec55ca407"
+ref = "77baa7d6b4cf103f2b16aef5c73c97b555561ad1"
+revision = "77baa7d6b4cf103f2b16aef5c73c97b555561ad1"
 summary = "Lightweight, Efficient and Stable DRL Implementation Using PyTorch"
 dependencies = [
     "box2d-py",
@@ -1751,7 +1752,7 @@ summary = "Backport of pathlib-compatible object wrapper for zip files"
 
 [metadata]
 lock_version = "4.0"
-content_hash = "sha256:31e3c87e87f28b642b72121ac5d0b4935087c2a2087a131994cba0ccb1fc172a"
+content_hash = "sha256:b49971e4cc45ce13aa5a89be02a2591d2d51be82ffe6e5ffc65b986dc013312c"
 
 [metadata.files]
 "absl-py 1.1.0" = [

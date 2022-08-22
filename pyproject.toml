@@ -24,7 +24,7 @@ dependencies = [
     "alpaca_trade_api>=2.1.0",
     "ccxt==1.66.32",
     "elegantrl",
-    "elegantrl @ git+https://github.com/AI4Finance-Foundation/ElegantRL.git#egg=elegantrl",
+    "elegantrl @ git+https://github.com/AI4Finance-Foundation/ElegantRL.git@77baa7d6b4cf103f2b16aef5c73c97b555561ad1#egg=elegantrl",
     "exchange_calendars==3.6.3",
     "gputil",
     "gym>=0.17",
